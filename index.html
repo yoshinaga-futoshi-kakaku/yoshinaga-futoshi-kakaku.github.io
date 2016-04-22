@@ -4,15 +4,47 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta name="description" content="私の自己紹介ページです。">
+    <title>yoshinaga futoshi</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--<link rel="stylesheet" href="index.css" />-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-field">
+            <ul class="list-inline">
+              <li><a href="home.html">home</a></li>
+              <li><a href="index.html" class="selected">about</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+      </nav>
+      <div class="center-block">
+        <img src="profile.jpg" alt="" class="img-responsive img-circle" style="margin: 0 auto"/></img>
+        <h1 class="text-center">吉永 太</h1>
+      </div>
+    </header>
+    <div>
+      <table class="table table-default">
+        <thead>
+          <th>自己紹介</th>
+        </thead>
+        <tr>
+          <td>吉永 太(エンジニア) </td>
+        </tr>
+        <tr>
+          <td>千葉県君津市出身 なりたてのエンジニアです。</td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
